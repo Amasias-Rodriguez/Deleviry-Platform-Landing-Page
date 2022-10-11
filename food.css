@@ -28,7 +28,9 @@ body{
     width: 30px;
     height: 30px;
     margin-right: 25px;
+    cursor: pointer;
 }
+
 
 .nav__logo h5{
     font-size: 30px;
@@ -95,3 +97,133 @@ body{
     background: #F3F5F7;
     border-radius: 10px;
 }
+
+/* SECTION 1 */
+
+.section1{
+    display: flex;
+}
+
+.section1__content{
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+    text-align: center;
+    padding: 0 35px;
+    cursor: pointer;
+}
+
+.section1__content h4{
+    padding-top: 15px;
+}
+
+/* SECTION 2 */
+
+.section2{
+    position: relative;
+    top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 0 60px;
+}
+
+.section2__content--left,
+.section2__content--center,
+.section2__content--right{
+    width: 310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.section2__content--left{
+    color: #fff;
+    background: #2061D4;
+    border-radius: 10px;
+}
+
+.section2__content--left h4{
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.section2__content--left p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.section2__content--left span{
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+    left: 12rem;
+}
+
+.section2__content--left img{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.section2__content--center{
+    color: #fff;
+    background: #DA4722;
+    border-radius: 10px;
+}
+
+.section2__content--center h4{
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.section2__content--center h6{
+    position: relative;
+    top: 2.5rem;
+    font-size: 13px;
+    padding: 5px 10px;
+    color: #DA4722;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section2__content--center h6 ion-icon{
+    position: relative;
+    top: 3px;
+}
+
+.section2__content--center img{
+    width: 64px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.section2__content--right{
+    color: #fff;
+    background: #E39943;
+    border-radius: 10px;
+}
+
+.section2__content--right h4{
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.section2__content--right p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.section2__content--right span{
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+    left: 12rem;
+}
+
+.section2__content--right img{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
