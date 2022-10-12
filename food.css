@@ -309,3 +309,37 @@ article h5 ion-icon{
     position: relative;
     right: 8px;
 }
+
+footer{
+    width: 100%;
+    position:relative;
+    top: 21rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 0 3.5rem;    
+}
+
+.section4{
+    position: relative;
+}
+
+
+.section4 img{
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+.section4 h4{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    background: #F7B338;
+    z-index: 1;
+}
